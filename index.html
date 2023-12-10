@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Visharad Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    
+
+    <div class="body-main" id="test" onmousedown='return false;' onselectstart='return false;'>
+
+
+        <div class="head" id="top">
+            <h2 class="top-name">Visharad Vidyasagar Portfolio</h2>
+            <div class="redirect">
+                <a href="#home" class="red-anc"><button class="red-btn">Home</button></a>
+                <a href="#aboutsec" class="red-anc"><button class="red-btn">About</button></a>
+                <a href="#project" class="red-anc"><button class="red-btn">Project</button></a>
+                <a href="#contact" class="red-anc"><button class="red-btn">Contact</button></a>
+                <a href="" class="red-anc"><button class="rules" onclick="myFunction()">?</button></a> 
+            </div>
+        </div>
+    
+        <div class="back-to-top-wrapper">
+            <a href="#home" class="to-top" aria-label="Scroll to Top"><button class="fa fa-arrow-up"></button></a>
+        </div>
+    
+        <div class="social">
+            <a href="https://gitlab.com/visharadvidyasagar" target="blank"><button class="fa fa-gitlab"></button></a>
+            <a href="https://api.whatsapp.com/send/?phone=8130484626&text&type=phone_number&app_absent=0" target="blank"><button class="fa fa-whatsapp"></button></a>
+            <a href="https://www.linkedin.com/in/visharad-vidyasagar-2b94b6217/" target="blank"><button class="fa fa-linkedin"></button></a>
+            <a href="https://www.instagram.com/_visharad_mishra/?hl=en" target="blank"><button class="fa fa-instagram"></button></a>
+        </div>
+
+
+        <div class="home" id="home">
+        
+            <div class="about">
+                <p class="a1">Hello World! My name is</p>
+                <h1>Visharad Vidyasagar</h1>
+                <p class="a2">Student, Front-End Web Developer</p>
+                
+                <p class="a2">
+                    I am a Final Year student at AMC Engineering College, <br>
+                    Pursuing B.E in the field of Information Scienece Enginnering
+                    <br><br>
+                    A student with good understanding, quick learning and with a positive attitude.
+                    <br><br>
+                    Eager to learn and explore new things to have a productive result in my career and knowledge.
+                </p>
+            </div>
+    
+            <img  class="my-img" src="images/myimage.jpg" alt="">
+    
+        </div>
+    
+        <div class="about-section" id="aboutsec">
+            <h1 class="p-head">ABOUT</h1>
+    
+            <div class="about-main">
+                <p class="cont-cont1">Hello! My name is Visharad Vidyasagar and I enjoy creating things that live on the internet.
+                    My interest in web development started back in July 2022, when I decided to try WordPress as a No-Code Development Tool.
+                    <br><br>
+                    Then I started with HTML & CSS, and this was the time my creativity started to build up.
+                    I started to make different UI just by taking a refernce of it, and created a look a like UI using HTML & CSS.
+                    <br><br>
+                    Just not it, I love to solve problems whether it is reasonable or logical.
+                    I am proficient in C++ for the concepts of Data Structures and Algorithms(DSA) and OOPs.
+                    <br><br>
+                    I have the  capability to lead a team as well as work in teams by providing valuable support.
+                </p>
+    
+                <a href="https://drive.google.com/file/d/1zWjoqHuErTrhUVYxpF0E1n_gZnlRB-DB/view?usp=sharing" target="blank" class="down-section">
+                    <button class="down-btn"><i class="fa fa-download"></i> Get Resume</button>
+                </a>  
+            </div>
+            
+            <p class="cont-cont">My Education</p>
+            <div class="education">
+                <div class="tab">
+                    <button class="tabbtn" onclick="openEdu(event, 'eng')" id="defaultOpen">Engineering</button>
+                    <button class="tabbtn" onclick="openEdu(event, 'twe')">12th</button>
+                    <button class="tabbtn" onclick="openEdu(event, 'ten')">10th</button>
+                </div>
+                  
+                <div id="eng" class="tabcontent">
+                    <h3>AMC Engineering College</h3>
+                    <p>Bangalore, Karnataka (2020-2024)</p>
+                    <p>Branch: Information Science and Engineering</p>
+                </div>
+                  
+                <div id="twe" class="tabcontent">
+                    <h3>Kendriya Vidyalaya NAL Campus</h3>
+                    <p>Bangalore, Karnataka (2020)</p> 
+                    <p>Marks: 77.4%</p>
+                </div>
+                  
+                <div id="ten" class="tabcontent">
+                    <h3>Kendriya Vidyalaya Andrews Ganj</h3>
+                    <p>New Delhi, Delhi (2018)</p> 
+                    <p>Marks: 77.6%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="project" id="project">
+            <h1 class="p-head">PROJECTS</h1>
+            <p class="cont-cont">Some Things I Have Built</p>
+            
+            <div class="proj-1">
+                <img class="p-img" src="images/task.png" alt="">
+                <div class="cont-1">
+                    <p class="p-title">Web Dev Project</p>
+                    <p class="p-main">Task Manager</p>
+                    <div class="p-use">
+                        <p class="p2">HTML</p>
+                        <p class="p2">CSS</p>
+                        <p class="p2">JavaScript</p>
+                    </div>
+                    <div class="p-link1">
+                        <a href="https://taskmanagervish.netlify.app/" target="blank"><button class="fa fa-long-arrow-up"></button></a>
+                        <a href="https://gitlab.com/visharadvidyasagar/task-manager" target="blank"><button class="fa fa-gitlab"></button></a>
+                    </div>
+                    <div class="p-box1">
+                        <p class="p-box-cont1">A Task Manger to keep you up to date with your daily works.
+                            <br>It is useful to keep a mark on which all work you have to do or are pending.
+                            <br>The completed task can be marked as done, and can be deleted also.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="proj-2">
+                <div class="cont-2">
+                    <p class="p-title">Web Dev Project</p>
+                    <p class="p-main">BeyondExams Clone Website</p>
+                    <div class="p-use2">
+                        <p class="p2">ReactJS</p>
+                        <p class="p2">HTML</p>
+                        <p class="p2">CSS</p>
+                        <p class="p2">NodeJS</p>
+                    </div>
+                    <div class="p-link2">
+                        <a href="https://beyondexamsvish.netlify.app/" target="blank"><button class="fa fa-long-arrow-up"></button></a>
+                        <a href="https://gitlab.com/visharadvidyasagar/browse-react-page" target="blank"><button class="fa fa-gitlab"></button></a>
+                    </div>
+                    <div class="p-box2">
+                        <p class="p-box-cont2">A BeyondExams clone website. This Project has a responsive UI.
+                            <br>All the content in the web page is fetched from the API.<br> The search bar is
+                            fully functional, and after searching redirects to original website.
+                        </p>
+                    </div>
+                    
+                </div>
+                <img class="p-img" src="images/beyond.png" alt="">
+            </div>
+    
+            <div class="proj-1">
+                <img class="p-img" src="images/port.png" alt="">
+                <div class="cont-1">
+                    <p class="p-title">Web Dev Project</p>
+                    <p class="p-main">Portfolio</p>
+                    <div class="p-use">
+                        <p class="p2">HTML</p>
+                        <p class="p2">CSS</p>
+                        <p class="p2">JavaScript</p>
+                    </div>
+                    <div class="p-link1">
+                        <a href="https://visharadvidyasagar.netlify.app/" target="blank"><button class="fa fa-long-arrow-up"></button></a>
+                        <a href="https://gitlab.com/visharadvidyasagar/visharad-new-portfolio" target="blank"><button class="fa fa-gitlab"></button></a>
+                    </div>
+                    <div class="p-box1">
+                        <p class="p-box-cont1">A perosnal portfolio website, for anyone to know about me.
+                            <br>It can be viewed anytime, anywhere on any device and has an attractive UI.
+                            <br>All my projects, and their links can visited just with a click.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <p class="cont-cont">Other Projects</p>
+            
+            <div class="extra-proj">
+                <div class="e1">
+                    <a href="https://whatsappclonevish.netlify.app/" target="blank" class="down-section1">
+                        <button class="exp-btn">WhatsApp Clone<i class="fa fa-arrow-right"></i></button>
+                    </a>
+    
+                    <p class="exp-cont">This project is a WhatsApp Web clone and has a Responsive UI.
+                        <br>When clicked on differnt chat, it changes the avatar, chats and time-stamps.
+                    </p>
+    
+                    <div class="p-use1">
+                        <p class="p1">HTML</p>
+                        <p class="p1">CSS</p>
+                        <p class="p1">JavaScript</p>
+                    </div>
+                </div>
+                <div class="e1">
+                    <a href="https://foodmenuvish.netlify.app/" target="blank" class="down-section1">
+                        <button class="exp-btn">Food Menu<i class="fa fa-arrow-right"></i></button>
+                    </a>
+    
+                    <p class="exp-cont">This project is a Food Menu of a restaurant.
+                        <br>It is just a simple menu, all the data are loaded using arrays in it.
+                    </p>
+    
+                    <div class="p-use1">
+                        <p class="p1">HTML</p>
+                        <p class="p1">CSS</p>
+                        <p class="p1">JavaScript</p>
+                    </div>
+                </div>
+                <div class="e1">
+                    <a href="https://colorflippervish.netlify.app/" target="blank" class="down-section1">
+                        <button class="exp-btn">Color-Flipper<i class="fa fa-arrow-right"></i></button>
+                    </a>
+    
+                    <p class="exp-cont">This is a basic JavaScript project which helped me to learn JS.
+                        <br>This project tells us how to allot functions to a button, and how it can work.
+                    </p>
+    
+                    <div class="p-use1">
+                        <p class="p1">HTML</p>
+                        <p class="p1">CSS</p>
+                        <p class="p1">JavaScript</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="contact" id="contact">
+            <h1 class="p-head">GET IN TOUCH</h1>
+                <p class="cont-cont">
+                    Currently I'm looking for any new opportunities as a fresher. My inbox is always open.
+                    <br>
+                    Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                </p>
+                <a href="https://api.whatsapp.com/send/?phone=8130484626&text&type=phone_number&app_absent=0" target="blank">
+                    <button class="cont-btn">Say Hello</button>
+                </a>
+        </div>
+
+
+    </div>
+
+    <div class="mob-view">
+        Site is under Maintainence
+        <br><br>
+        <button class="rep-btn"><i class="fa fa-space-shuttle"></i></button>
+        <br><br>
+        Kindly visit it on a Laptop or a Computer
+        <br><br>
+        OR
+        <br><br>
+        Switch to desktop View
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
